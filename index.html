@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery IMG</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./galleryCss.css" />
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <div class="image">
+        <img src="./images/img1.jpeg" alt="Image Wrapper" />
+      </div>
+      <div class="image">
+        <img src="./images/img2.jpeg" alt="Image Wrapper" />
+      </div>
+      <div class="image">
+        <img src="./images/img3.jpeg" alt="Image Wrapper" />
+      </div>
+      <div class="image">
+        <img src="./images/img4.jpeg" alt="Image Wrapper" />
+      </div>
+      <div class="image">
+        <img src="./images/img5.jpeg" alt="Image Wrapper" />
+      </div>
+      <div class="image">
+        <img src="./images/img6.jpeg" alt="Image Wrapper" />
+      </div>
+      <div class="image">
+        <img src="./images/img7.jpeg" alt="Image Wrapper" />
+      </div>
+      <div class="image">
+        <img src="./images/img8.jpeg" alt="Image Wrapper" />
+      </div>
+    </div>
+  </body>
+  <script src="./imageGallery.js"></script>
+  <script>
+    imageGallery({
+      wrapper: "#wrapper",
+      imageList: ".image > img",
+    });
+  </script>
+</html>
